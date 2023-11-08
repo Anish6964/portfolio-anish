@@ -1,0 +1,132 @@
+body, html {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+color: #333333; /* Dark gray for text */
+background-color: #f8f8f8; /* Light gray for background */
+
+}
+
+
+
+
+
+#title
+{
+margin:0;
+text-align:center;
+border:solid 20px #333;
+background:#333;
+color:#fff;
+}
+
+ul
+{ 
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+margin: 0;
+padding: 0;
+background:#333;
+border: solid 20px #333;
+ font-weight: bold;
+ transition: background-color 0.3s;
+  
+}
+
+
+li a
+{ 
+padding:20px;
+text-decoration:none;
+color:#fff;
+background:#333;
+
+}
+
+ul a:hover 
+{
+background-color: #555;
+}
+
+#Aboutme
+{
+padding:10px 10px 10px 10px;
+background:#e7e7e7;
+}
+
+#aboutme
+{
+text-align:center;
+}
+
+.cta-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #5cb85c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom:10px;
+
+
+}
+
+.cta-button:hover {
+  background: #4cae4c;
+}
+
+#aboutmedesc{
+text-align:center;
+padding:30px;
+}
+
+
+#project2
+{
+padding:20px 10px 50px 10px;
+background:#e7e7e7;
+}
+
+#project1
+{
+padding:20px 10px 50px 10px;
+
+}
+
+#project3
+{
+padding:20px 10px 50px 10px;
+
+}
+
+
+#Resume
+{
+padding:20px 10px 50px 10px;
+background:#e7e7e7;
+}
+
+
+#headerpro{
+margin-bottom:0px;
+text-align:center;
+font-weight:bold;
+text-decoration:underline;
+}
+
+
+
+footer{
+text-align:center;
+}
+
+.button-wrapper {
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically if needed */
+
+}
+
